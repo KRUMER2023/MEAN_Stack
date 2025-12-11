@@ -1,0 +1,11 @@
+
+use Student_Database;
+
+db.createCollection("employees");
+
+db.employees.insertOne(
+    id : 101,
+    name : "Krunal",
+    age: 21
+)
+
