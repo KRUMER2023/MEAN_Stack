@@ -5,3 +5,16 @@ git commit -m "1st push"
 git branch -M main
 git remote add origin "repo link"
 git push -u origin main
+
+
+setting global name and email that are visible to others in GitHub
+
+git config --global user.name "name"
+git config --global user.email "ur_email@gmail.com"
+
+to Check the Config of name , mail:
+
+git config --global user.name
+op: name
+git config --global user.email
+op: ur_email@gmail.com

@@ -1,0 +1,10 @@
+use Practicals;
+
+db.Employees.insertOne(
+    {
+    	"id" = 1,
+        "name" = "John",
+        "age" = 30,
+        "role" = "Manager"
+    }
+);
